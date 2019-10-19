@@ -23,7 +23,7 @@ class Bill : IDisplay
     enum Types
     {
         
-case Internet
+        case Internet
         case Hydro
         case Mobile
         
@@ -40,7 +40,9 @@ case Internet
        
         self.billId = billId
         
+    
         self.billDate = billDate
+        
         self.billType = billType
         
     }

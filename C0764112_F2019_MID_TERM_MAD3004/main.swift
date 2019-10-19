@@ -38,4 +38,4 @@ var  Power = Hydro(boardName: "Brampton Energy", unitsUsed: 55, billAmount: 140,
 
 var Cx1 = Customer(customerId: "111", firstName: "Sandeep ", lastName: "Singh", email: "sj@gmail.com", billDictionary : [Net.billId:Net,M.billId:M,Power.billId:Power])
 
-
+custDictionary.updateValue(Cx1, forKey: Cx1.customerId)
