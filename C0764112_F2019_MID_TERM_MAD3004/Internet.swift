@@ -31,4 +31,19 @@ class Internet : Bill
         
         
 }
+    override func iDisplay()
+    {
+        print("***************************************")
+        print("Bill Id : \(billId)")
+        
+        print("Bill Type : \(billType)")
+        
+        
+        print("Bill Date : \(billDate)")
+        
+        print("Manufacturer Name : \(manufacturerName)")
+        print("Internet Used : \(gbUsed.gbUsed())")
+        
+        print("Bill Amount : \(billAmount.currencyFormat())")
+}
 }
