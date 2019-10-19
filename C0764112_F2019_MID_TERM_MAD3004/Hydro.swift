@@ -11,14 +11,14 @@ class Hydro : Bill
     
 {
     
-    var agencyName:String
+    var boardName:String
     
     var unitsUsed: Float
     var billAmount : Float
     
-    init(agencyName:String,unitsUsed:Float,billAmount : Float,billId : String,billType : Bill.Types,billDate : String)
+    init(boardName:String,unitsUsed:Float,billAmount : Float,billId : String,billType : Bill.Types,billDate : String)
     {
-        self.agencyName=agencyName
+        self.boardName=boardName
         
         self.unitsUsed=unitsUsed
         
@@ -28,4 +28,20 @@ class Hydro : Bill
         
 }
     
+    override func iDisplay()
+    {
+        print("===========================")
+        
+        print("Bill Id : \(billId)")
+        
+        print("Bill Type : \(billType)")
+        
+        print("Bill Date : \(billDate)")
+        
+        print("Board Name : \(boardName)")
+        
+        print("Unit Used : \(unitsUsed.dataUnitFormat())")
+        
+        print("Bill Amount : \(billAmount.currencyFormat())")
+}
 }
