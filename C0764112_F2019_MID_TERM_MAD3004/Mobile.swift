@@ -18,13 +18,14 @@ class Mobile : Bill
     
     var phoneNumber:String
     
-    var internetUsed:Float
+    var dataUsed:Float
 
     var minUsed:Int
     
     var billAmount : Float
     
-    init(providerName:String,planName:String,phoneNumber:String,internetUsed:Float,minUsed:Int,billAmount:Float,billId : String,billType : Types,billDate: String) {
+    init(providerName:String,planName:String,phoneNumber:String,dataUsed:Float,minUsed:Int,billAmount:Float,billId : String,billType : Types,billDate: String)
+    {
         self.providerName=providerName
         
         self.planName=planName
@@ -32,7 +33,7 @@ class Mobile : Bill
         
         self.phoneNumber=phoneNumber
         
-        self.internetUsed=internetUsed
+        self.dataUsed=dataUsed
         
         self.minUsed=minUsed
         
@@ -61,7 +62,7 @@ class Mobile : Bill
         
         print("Bill Amount : \(billAmount.currencyFormat())")
         
-        print("Internet Used : \(String(describing: internetUsed.gbUsed()))")
+        print("Data Used : \(String(describing: dataUsed.gbUsed()))")
         
         
 }

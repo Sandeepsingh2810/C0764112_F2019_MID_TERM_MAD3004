@@ -17,6 +17,7 @@
 		9B2E85CB235BBB8B00515816 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85CA235BBB8B00515816 /* Insurance.swift */; };
 		9B2E85CD235BC51F00515816 /* MinutesExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85CC235BC51F00515816 /* MinutesExtensions.swift */; };
 		9B2E85CF235BC5FF00515816 /* currencyEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85CE235BC5FF00515816 /* currencyEx.swift */; };
+		9B2E85D1235BC6B300515816 /* Data use ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85D0235BC6B300515816 /* Data use ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		9B2E85CA235BBB8B00515816 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 		9B2E85CC235BC51F00515816 /* MinutesExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesExtensions.swift; sourceTree = "<group>"; };
 		9B2E85CE235BC5FF00515816 /* currencyEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyEx.swift; sourceTree = "<group>"; };
+		9B2E85D0235BC6B300515816 /* Data use ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data use ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				9B2E85CA235BBB8B00515816 /* Insurance.swift */,
 				9B2E85CC235BC51F00515816 /* MinutesExtensions.swift */,
 				9B2E85CE235BC5FF00515816 /* currencyEx.swift */,
+				9B2E85D0235BC6B300515816 /* Data use ex.swift */,
 			);
 			path = C0764112_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				9B2E85C7235BBA2200515816 /* Hydro.swift in Sources */,
 				9B2E85C5235BB9FC00515816 /* Internet.swift in Sources */,
 				9B2E85CD235BC51F00515816 /* MinutesExtensions.swift in Sources */,
+				9B2E85D1235BC6B300515816 /* Data use ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
