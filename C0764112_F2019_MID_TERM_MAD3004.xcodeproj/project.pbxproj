@@ -15,6 +15,8 @@
 		9B2E85C7235BBA2200515816 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85C6235BBA2200515816 /* Hydro.swift */; };
 		9B2E85C9235BBA9700515816 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85C8235BBA9700515816 /* IDisplay.swift */; };
 		9B2E85CB235BBB8B00515816 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85CA235BBB8B00515816 /* Insurance.swift */; };
+		9B2E85CD235BC51F00515816 /* MinutesExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85CC235BC51F00515816 /* MinutesExtensions.swift */; };
+		9B2E85CF235BC5FF00515816 /* currencyEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2E85CE235BC5FF00515816 /* currencyEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,8 @@
 		9B2E85C6235BBA2200515816 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B2E85C8235BBA9700515816 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		9B2E85CA235BBB8B00515816 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
+		9B2E85CC235BC51F00515816 /* MinutesExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesExtensions.swift; sourceTree = "<group>"; };
+		9B2E85CE235BC5FF00515816 /* currencyEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				9B2E85C6235BBA2200515816 /* Hydro.swift */,
 				9B2E85C8235BBA9700515816 /* IDisplay.swift */,
 				9B2E85CA235BBB8B00515816 /* Insurance.swift */,
+				9B2E85CC235BC51F00515816 /* MinutesExtensions.swift */,
+				9B2E85CE235BC5FF00515816 /* currencyEx.swift */,
 			);
 			path = C0764112_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -145,9 +151,11 @@
 				9B2E85CB235BBB8B00515816 /* Insurance.swift in Sources */,
 				9B2E85BF235BB9C200515816 /* Customer.swift in Sources */,
 				9B2E85C9235BBA9700515816 /* IDisplay.swift in Sources */,
+				9B2E85CF235BC5FF00515816 /* currencyEx.swift in Sources */,
 				9B2E85C3235BB9E600515816 /* Mobile.swift in Sources */,
 				9B2E85C7235BBA2200515816 /* Hydro.swift in Sources */,
 				9B2E85C5235BB9FC00515816 /* Internet.swift in Sources */,
+				9B2E85CD235BC51F00515816 /* MinutesExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

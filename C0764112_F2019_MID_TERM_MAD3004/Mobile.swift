@@ -60,6 +60,7 @@ class Mobile : Bill
         print("Minutes used : \(String(describing: minUsed.minuteFormat()))")
         
         print("Bill Amount : \(billAmount.currencyFormat())")
+        
         print("Internet Used : \(String(describing: internetUsed.gbUsed()))")
         
         
