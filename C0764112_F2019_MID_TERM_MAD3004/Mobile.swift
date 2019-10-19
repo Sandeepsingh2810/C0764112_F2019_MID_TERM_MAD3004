@@ -9,30 +9,60 @@
 import Foundation
 
 class Mobile : Bill
-    
 {
     
     var providerName:String
+    
+
     var planName:String
-    var phoneNo:String
-    var dataUsed:Float
+    
+    var phoneNumber:String
+    
+    var internetUsed:Float
+
     var minUsed:Int
+    
     var billAmount : Float
     
-    init(providerName:String,planName:String,phoneNo:String,dataUsed:Float,minUsed:Int,billAmount:Float,billId : String,billType : Types,billDate: String) {
-        
-        
+    init(providerName:String,planName:String,phoneNumber:String,internetUsed:Float,minUsed:Int,billAmount:Float,billId : String,billType : Types,billDate: String) {
         self.providerName=providerName
+        
         self.planName=planName
         
-        self.phoneNo=phoneNo
-        self.dataUsed=dataUsed
+        
+        self.phoneNumber=phoneNumber
+        
+        self.internetUsed=internetUsed
         
         self.minUsed=minUsed
+        
         self.billAmount=billAmount
         
         
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
+    override func iDisplay()
+    {
+        
+        print("*************************************************************")
+       
+        print("Bill Id : \(billId)")
+       
+        print("Bill Type : \(billType)")
+       
+        print("Bill Date : \(billDate)")
+        print("Provider Name : \(String(describing: providerName))")
+        
+        print("Plan Name : \(String(describing: planName))")
+        
+        print("Phone number : \(String(describing: phoneNumber))")
+        print("Minutes used : \(String(describing: minUsed.minuteFormat()))")
+        
+        print("Bill Amount : \(billAmount.currencyFormat())")
+        print("Internet Used : \(String(describing: internetUsed.gbUsed()))")
+        
+        
+}
+
 }
