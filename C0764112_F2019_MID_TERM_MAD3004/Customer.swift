@@ -40,6 +40,7 @@ class Customer : IDisplay
         self.lastName = lastName
         
         self.email = email
+        
         self.billDictionary = billDictionary
         
         self.fullName = firstName + lastName
@@ -48,10 +49,10 @@ class Customer : IDisplay
     
     func iDisplay()
     {
-        print("=================================")
+        print("------------------------")
         
         print("Customer Id : \(customerId)")
-        
+        print("Email :  \(email)")
         print("Full Name : \(fullName)")
 
         for i in billDictionary.values

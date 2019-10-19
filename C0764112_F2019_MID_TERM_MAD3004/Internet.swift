@@ -34,7 +34,7 @@ class Internet : Bill
     override func iDisplay()
         
     {
-        print("***************************************")
+        print("**********internet bill**************")
         print("Bill Id : \(billId)")
         
         print("Bill Type : \(billType)")
