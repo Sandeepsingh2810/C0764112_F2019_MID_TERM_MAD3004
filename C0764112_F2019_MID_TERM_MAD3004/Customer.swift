@@ -15,10 +15,10 @@ class Customer : IDisplay
       
     }
     
-    //var bill : Bill
+  
     var billDictionary = Dictionary<String,Bill>()
     
-    var customerId : String
+    var cxId : String
     
     var firstName : String
     
@@ -30,13 +30,20 @@ class Customer : IDisplay
     
     var  totalBill : Float = 0
     
-    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+    init(cxId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+        
+        
     {
-        self.customerId = customerId
+        self.cxId = cxId
+        
         self.firstName = firstName
+        
         self.lastName = lastName
+        
         self.email = email
         self.billDictionary = billDictionary
+        
         self.fullName = firstName + lastName
 
+}
 }
