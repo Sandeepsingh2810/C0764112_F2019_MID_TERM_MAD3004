@@ -11,14 +11,13 @@ import Foundation
 
 class Customer : IDisplay
 {
-    func iDisplay() {
-      
-    }
+  
     
+   
   
     var billDictionary = Dictionary<String,Bill>()
     
-    var cxId : String
+    var customerId : String
     
     var firstName : String
     
@@ -30,11 +29,11 @@ class Customer : IDisplay
     
     var  totalBill : Float = 0
     
-    init(cxId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
         
         
     {
-        self.cxId = cxId
+        self.customerId = customerId
         
         self.firstName = firstName
         
@@ -46,4 +45,17 @@ class Customer : IDisplay
         self.fullName = firstName + lastName
 
 }
+    
+    func iDisplay()
+    {
+        print("=================================")
+        
+        print("Customer Id : \(customerId)")
+        
+        print("Full Name : \(fullName)")
+
+    }
+    
 }
+}
+
