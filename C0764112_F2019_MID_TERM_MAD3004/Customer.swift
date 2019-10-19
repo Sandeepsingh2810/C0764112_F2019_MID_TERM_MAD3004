@@ -54,8 +54,14 @@ class Customer : IDisplay
         
         print("Full Name : \(fullName)")
 
-    }
+        for i in billDictionary.values
+        {
+            i.iDisplay()
+            
+        }
     
+    
+
+
 }
-
-
+}
