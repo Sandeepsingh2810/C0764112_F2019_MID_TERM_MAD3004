@@ -6,4 +6,27 @@
 //  Copyright © 2019 MacStudent. All rights reserved.
 //
 
+
 import Foundation
+
+class Customer : IDisplay
+{
+    
+    
+    var customerId : String
+    var firstName : String
+    var lastName : String!
+    var fullName : String
+    var email : String!
+    
+    var  totalBill : Float = 0
+    
+    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+    {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+        self.billDictionary = billDictionary
+        self.fullName = firstName + lastName
+
