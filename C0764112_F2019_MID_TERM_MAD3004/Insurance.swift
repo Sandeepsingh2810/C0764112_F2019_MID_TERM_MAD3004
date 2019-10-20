@@ -13,12 +13,34 @@ class Insurance:Bill
 {
     enum typeInsurance
     {
-        case Home
+        
         case Car
-        case Business
+        
     }
-    var typeOfInsurance : typeInsurance
+    
     var provider : String
+    
+    var typeOfInsurance : typeInsurance
+    
     var startDate : Date
+    
     var endDate : Date
-    var totalInstallmentAmount :Int 
+    var totalInstallmentAmount :Int
+
+    
+    init(Type: typeInsurance, Provider : String, StartDate: Date, EndDate: Date,BillId : String, BillDate : String,billAmount: Float, BillType : Bill.Types) {
+        
+        self.typeOfInsurance=Type
+        
+        self.provider=Provider
+        
+    
+        self.startDate=StartDate
+        
+        self.endDate=EndDate
+    
+        super.init(billId: BillId, billDate: BillDate, billType: BillType)
+    }
+    
+
+}
