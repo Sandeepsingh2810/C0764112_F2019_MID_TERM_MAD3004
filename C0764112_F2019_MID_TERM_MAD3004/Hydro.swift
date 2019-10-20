@@ -14,6 +14,8 @@ class Hydro : Bill
     var boardName:String
     
     var unitsUsed: Float
+    
+    
     var billAmount : Float
     
     init(boardName:String,unitsUsed:Float,billAmount : Float,billId : String,billType : Bill.Types,billDate : String)
