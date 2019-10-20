@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class Insurance:Bill
+
+{
+    enum typeInsurance
+    {
+        case Home
+        case Car
+        case Business
+    }
+    var typeOfInsurance : typeInsurance
+    var provider : String
+    var startDate : Date
+    var endDate : Date
+    var totalInstallmentAmount :Int 
