@@ -53,6 +53,7 @@ var Cx2 = Customer(customerId: "222", firstName: "Karan ", lastName: "kumar", em
 
 //for third customer
 var  Power2 = Hydro(boardName: "Toronto Energy", unitsUsed:60, billAmount: 160, billId: "0002", billType: Bill.Types.Hydro, billDate: date2!)
+var Insurance1 = Insurance(Type: Insurance.typeInsurance.Home, Provider: "Jeevan Beema", StartDate: startDateOfInsurance!, EndDate: endDateOfInsurance!, BillId: "10", BillDate: (date_4?.dateFormat())!, billAmount: 700, BillType: Bill.Types.Insurance)
 
 var Cx3 = Customer(customerId: "333", firstName: "Ankita ", lastName: "jain", email: "Aj@gmail.com", billDictionary : [Power2.billId:Power2])
 

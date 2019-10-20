@@ -8,55 +8,41 @@
 
 import Foundation
 
-class Insurance:Bill {
-    override func iDisplay(){
-    
-}
-
-    enum typeInsurance
-    {
-        
+class Insurance:Bill
+{
+    enum typeInsurance{
+      
         case Car
         
     }
-    
-    var provider : String
-    
     var typeOfInsurance : typeInsurance
-    
+    var provider : String
     var startDate : Date
-    
     var endDate : Date
     var totalInstallmentAmount :Int
-
+   
     
-    init(Type: typeInsurance, Provider : String, StartDate: Date, EndDate: Date,BillId : String, BillDate : String,billAmount: Float, BillType : Bill.Types) {
-        
+    
+    init(Type: typeInsurance,Provider : String, StartDate: Date, EndDate: Date,BillId : String, BillDate : String,billAmount: Float, BillType : Bill.Types) {
         self.typeOfInsurance=Type
-        
         self.provider=Provider
-        
-    
         self.startDate=StartDate
-        
         self.endDate=EndDate
-    
         super.init(billId: BillId, billDate: BillDate, billType: BillType)
     }
     
- 
-    
-   
-
-        print("***************Insurance bill details***********************")
+    override func iDisplay() {
+        
+        print("******************************************************")
+        
         print("\nTypeOfInsurance : \(typeOfInsurance)")
+        
         print("Proveder: \(provider)")
-        print("Start Date : \(startDate)")
-        print("End Date : \(endDate)")
+        
+        print("Start Date : \(startDate.dateFormat())")
+        
+        
+        print("End Date : \(endDate.dateformatter())")
         print("Total Installment : \(totalInstallmentAmount)\n")    }
     
-}
-
-
-
 }

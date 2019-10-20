@@ -26,6 +26,8 @@ class Bill : IDisplay
         case Internet
         case Hydro
         case Mobile
+        case Insurance
+        
         
     }
     
