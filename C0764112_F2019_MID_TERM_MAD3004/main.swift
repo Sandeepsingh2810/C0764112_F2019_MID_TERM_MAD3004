@@ -55,12 +55,18 @@ var Cx2 = Customer(customerId: "222", firstName: "Karan ", lastName: "kumar", em
 var  Power2 = Hydro(boardName: "Toronto Energy", unitsUsed:60, billAmount: 160, billId: "0002", billType: Bill.Types.Hydro, billDate: date2!)
 
 var Cx3 = Customer(customerId: "333", firstName: "Ankita ", lastName: "jain", email: "Aj@gmail.com", billDictionary : [Power2.billId:Power2])
+//for fourth customer
+
+
+var Cx4 = Customer(customerId: "444", firstName: "Kamal ", lastName: "Kaur", email: "KK@gmail.com", billDictionary : [:])
 
 custDictionary.updateValue(Cx1, forKey: Cx1.customerId)
 
 custDictionary.updateValue(Cx2, forKey: Cx2.customerId)
 
 custDictionary.updateValue(Cx3, forKey: Cx3.customerId)
+
+custDictionary.updateValue(Cx4, forKey: Cx4.customerId)
 
 for i in custDictionary.values
     

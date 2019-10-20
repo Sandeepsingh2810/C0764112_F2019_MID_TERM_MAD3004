@@ -61,7 +61,10 @@ class Customer : IDisplay
             
         }
     
-    
+        if billDictionary.count == 0
+        {
+            print("No bills for this customer")
+        }
 
 
 }
