@@ -8,9 +8,11 @@
 
 import Foundation
 
-class Insurance:Bill
+class Insurance:Bill {
+    override func iDisplay(){
+    
+}
 
-{
     enum typeInsurance
     {
         
@@ -42,5 +44,19 @@ class Insurance:Bill
         super.init(billId: BillId, billDate: BillDate, billType: BillType)
     }
     
+ 
+    
+   
+
+        print("***************Insurance bill details***********************")
+        print("\nTypeOfInsurance : \(typeOfInsurance)")
+        print("Proveder: \(provider)")
+        print("Start Date : \(startDate)")
+        print("End Date : \(endDate)")
+        print("Total Installment : \(totalInstallmentAmount)\n")    }
+    
+}
+
+
 
 }
