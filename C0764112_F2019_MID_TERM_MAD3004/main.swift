@@ -55,6 +55,7 @@ var Cx2 = Customer(customerId: "222", firstName: "Karan ", lastName: "kumar", em
 var  Power2 = Hydro(boardName: "Toronto Energy", unitsUsed:60, billAmount: 160, billId: "0002", billType: Bill.Types.Hydro, billDate: date2!)
 
 var Cx3 = Customer(customerId: "333", firstName: "Ankita ", lastName: "jain", email: "Aj@gmail.com", billDictionary : [Power2.billId:Power2])
+
 //for fourth customer
 
 
