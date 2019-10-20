@@ -16,18 +16,28 @@ class Insurance:Bill
         
     }
     var typeOfInsurance : typeInsurance
+    
     var provider : String
+    
     var startDate : Date
+    
     var endDate : Date
+    
     var totalInstallmentAmount :Int
+    
    
     
     
     init(Type: typeInsurance,Provider : String, StartDate: Date, EndDate: Date,BillId : String, BillDate : String,billAmount: Float, BillType : Bill.Types) {
+        
         self.typeOfInsurance=Type
+        
         self.provider=Provider
+        
         self.startDate=StartDate
+        
         self.endDate=EndDate
+        
         super.init(billId: BillId, billDate: BillDate, billType: BillType)
     }
     
@@ -39,10 +49,11 @@ class Insurance:Bill
         
         print("Proveder: \(provider)")
         
-        print("Start Date : \(startDate.dateFormat())")
+        print("Start Date : \(startDate.dateformatter())")
         
         
         print("End Date : \(endDate.dateformatter())")
+        
         print("Total Installment : \(totalInstallmentAmount)\n")    }
     
 }
